@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook Ads At-Risk Report",
+    "version": "0.1",
+    "icons": {
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.facebook.com/ads/manage/campaigns*", "*://facebook.com/ads/manage/campaigns*"],
+            "js": ["jquery-2.0.3.min.js", "fb_ads_on_schedule.js"]
+        }
+    ]
+}
