@@ -1,4 +1,4 @@
-Fb-Ads-At-Risk-Report
+Facebook Ads At-Risk Report
 =====================
 
 Chrome extension, adding On-Schedule Indicator to Facebooks Ads Manager campaigns page.
